@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </section>
         
-        <section className={styles.qrSection} role="region" aria-labelledby="qr-heading">
+        {/* <section className={styles.qrSection} role="region" aria-labelledby="qr-heading">
           <div className={styles.containerInner}>
             <h2 id="qr-heading">Connect with BaseCamp</h2>
             <div 
@@ -191,7 +191,7 @@ export default function Home() {
               Scan the QR code above for quick access to program information and to get started with BaseCamp.
             </p>
           </div>
-        </section>
+        </section> */}
         
         <footer className={styles.footer} role="contentinfo">
           <div className={styles.containerInner}>
