@@ -1,4 +1,4 @@
-// styles/Home.module.css
+
 .container {
   margin: 0;
   padding: 0;
@@ -381,13 +381,13 @@
   }
 }
 
-/* Focus styles for accessibility */
-button:focus,
-a:focus,
-input:focus {
+/* Focus styles for accessibility button:focus,
+a:focus,*/
+
+/* input:focus {
   outline: 3px solid #6b8e23;
   outline-offset: 2px;
-}
+} */
 
 /* High contrast mode support */
 @media (prefers-contrast: high) {
@@ -400,11 +400,11 @@ input:focus {
 
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
-  * {
+  /* * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-  }
+  } */
 }
 
 /* Print styles */
