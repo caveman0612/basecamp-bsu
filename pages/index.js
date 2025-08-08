@@ -67,16 +67,16 @@ export default function Home() {
                 <p className={styles.subtitle}>OUTDOOR RESILIENCE COACHING FOR BSU STUDENTS</p>
               </div>
               
-              <div className={styles.mountainIllustration}>
+              {/* <div className={styles.mountainIllustration}>
                 <Image
-                  src="/media/mountain-landscape.png"
+                  src="../media/mountain-landscape.png"
                   alt="Mountain landscape with winding trail through pine trees"
                   width={300}
                   height={200}
                   className={styles.mountainImg}
                   priority
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </header>
