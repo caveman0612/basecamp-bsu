@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
+import logo from '../media/mountain-landscape.png';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState({});
@@ -67,16 +68,16 @@ export default function Home() {
                 <p className={styles.subtitle}>OUTDOOR RESILIENCE COACHING FOR BSU STUDENTS</p>
               </div>
               
-              {/* <div className={styles.mountainIllustration}>
+              <div className={styles.mountainIllustration}>
                 <Image
-                  src="../media/mountain-landscape.png"
+                  src={logo}
                   alt="Mountain landscape with winding trail through pine trees"
                   width={300}
                   height={200}
                   className={styles.mountainImg}
                   priority
                 />
-              </div> */}
+              </div>
             </div>
           </div>
         </header>
@@ -135,13 +136,14 @@ export default function Home() {
                 <div className={styles.contactItem}>
                   <h3>Program Creator</h3>
                   <p><strong>Joseph Templeton-Smith</strong></p>
-                  <p>BSU Student & Gillette Wellness Center Partner</p>
+                  {/* <p>BSU Student & Gillette Wellness Center Partner</p> */}
                 </div>
                 
                 <div className={styles.contactItem}>
                   <h3>Get Started</h3>
                   <p>
                     <a 
+                     className={styles.email_link}
                       href="mailto:josephtempletonsmith@yahoo.com"
                       onClick={() => handleContactClick('email')}
                       aria-label="Send email to Joseph Templeton-Smith"
