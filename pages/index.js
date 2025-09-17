@@ -91,7 +91,7 @@ export default function Home() {
                 id="card1"
               >
                 <h2>Welcome to BaseCamp</h2>
-                <p>BaseCamp is a free outdoor resilience coaching program designed exclusively for Bemidji State University students. Created by Joseph Templeton-Smith through his internship and final semester project, this program partners with the Gillette Wellness Center to bring you meaningful outdoor experiences that support your personal growth and mental wellness.</p>
+                <p>BaseCamp is a free outdoor resilience coaching program designed exclusively for Bemidji State University students. Created by Joseph Templeton-Smith through his internship and final semester project, this program partners with the Gillett Wellness Center to bring you meaningful outdoor experiences that support your personal growth and mental wellness.</p>
                 <p>Whether you're dealing with stress, looking to boost your mood, or simply want to spend more time in nature, BaseCamp offers a supportive space where you can build resilience and connect with fellow students through shared outdoor experiences.</p>
               </article>
               
@@ -136,7 +136,7 @@ export default function Home() {
                 <div className={styles.contactItem}>
                   <h3>Program Creator</h3>
                   <p><strong>Joseph Templeton-Smith</strong></p>
-                  {/* <p>BSU Student & Gillette Wellness Center Partner</p> */}
+                  {/* <p>BSU Student & Gillett Wellness Center Partner</p> */}
                 </div>
                 
                 <div className={styles.contactItem}>
@@ -199,7 +199,7 @@ export default function Home() {
           <div className={styles.containerInner}>
             <p>&copy; 2025 BaseCamp - Outdoor Resilience Coaching for BSU Students</p>
             <p className={styles.footerSubtext}>
-              A partnership between BSU students and the Gillette Wellness Center |{' '}
+              A partnership between BSU students and the Gillett Wellness Center |{' '}
               <a href="mailto:josephtempletonsmith@yahoo.com">
                 Contact for more information
               </a>
